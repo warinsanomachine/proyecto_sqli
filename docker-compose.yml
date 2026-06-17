@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: usuario_db
+      POSTGRES_PASSWORD: clave_db
+      POSTGRES_DB: base_datos_sqli
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+      
