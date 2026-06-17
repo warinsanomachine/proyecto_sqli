@@ -133,7 +133,7 @@ def ruta_segura():
     cursor_bd = conexion.cursor()
     
     consulta_sql = "SELECT * FROM usuarios WHERE nombre_usuario = %s;"
-    consulta_visual = f"SELECT * FROM usuarios WHERE nombre_usuario = '{nombre_usuario}'; (Protegido por motor)"
+    consulta_visual = f"SELECT * FROM usuarios WHERE nombre_usuario = '{nombre_usuario}'; (Protegido)"
     
     try:
         cursor_bd.execute(consulta_sql, (nombre_usuario,))
