@@ -1,4 +1,4 @@
-# 🛡️ Laboratorio de Inyección SQL (SQLi) con Docker
+# 🛡️Inyección SQL (SQLi) con Docker
 
 Un entorno de pruebas interactivo y aislado para comprender, explotar y mitigar vulnerabilidades de Inyección SQL en aplicaciones web. Este proyecto demuestra visualmente la diferencia entre construir consultas de base de datos de forma insegura (concatenación) y de forma segura (consultas parametrizadas).
 
