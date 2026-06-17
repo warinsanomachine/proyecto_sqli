@@ -21,8 +21,8 @@ Al estar completamente dockerizado, levantar el proyecto es rápido y no ensucia
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/laboratorio-sqli.git](https://github.com/tu-usuario/laboratorio-sqli.git)
-    cd laboratorio-sqli
+    git clone [https://github.com/warinsanomachine/proyecto_sqli]([https://github.com/tu-usuario/laboratorio-sqli.git](https://github.com/warinsanomachine/proyecto_sqli))
+    cd proyecto_sqli
     ```
 
 2.  **Construye y levanta los contenedores:**
